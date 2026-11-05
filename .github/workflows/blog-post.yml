@@ -1,0 +1,22 @@
+name: Latest blog posts
+on:
+  # ⚠️ هنوز RSS feed تنظیم نشده — فقط دستی اجرا می‌شود.
+  # بعد از گذاشتن آدرس feed در پایین، بخش schedule را هم فعال کن:
+  # schedule:
+  #   - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # RSS/Atom feed خودت را اینجا بگذار (dev.to / medium / وبلاگ شخصی)
+          feed_list: "https://dev.to/feed/my-vpn-bot"
+          max_post_count: 5
+          comment_tag_name: "BLOG-POST-LIST"
