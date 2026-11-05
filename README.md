@@ -25,9 +25,9 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Construction%20Worker%20Medium-Light%20Skin%20Tone.png" alt="Construction Worker" width="40" height="40" /> دربارهٔ من
 
 <p align="center">
-  <img src="./assets/arshavin-park.jpg" alt="Arshavin" width="45%" />
+  <img src="https://raw.githubusercontent.com/my-vpn-bot/my-vpn-bot/main/assets/arshavin-park.jpg" alt="Arshavin" width="45%" />
   &nbsp;&nbsp;
-  <img src="./assets/arshavin-office.jpg" alt="Arshavin at work" width="45%" />
+  <img src="https://raw.githubusercontent.com/my-vpn-bot/my-vpn-bot/main/assets/arshavin-office.jpg" alt="Arshavin at work" width="45%" />
 </p>
 
 <div align="center">
